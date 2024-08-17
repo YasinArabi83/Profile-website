@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load static %}
 
 <!DOCTYPE html>
@@ -51,15 +52,15 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/" class="active">Home<br></a></li>
-          <li><a href="/about">About</a></li>
-          <li class="dropdown"><a href="/gallery"><span>Gallery</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="/" class="active">{% trans 'Home' %}<br></a></li>
+          <li><a href="/about">{% trans 'About' %}</a></li>
+          <li class="dropdown"><a href="/gallery"><span>{% trans 'Gallery' %}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="/gallery-single">Nature</a></li>
+              <li><a href="/gallery-single">{% trans 'Gallery Single' %}</a></li>
             </ul>
           </li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/services">{% trans 'Services' %}</a></li>
+          <li><a href="/contact">{% trans 'Contact' %}</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
