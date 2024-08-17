@@ -14,17 +14,27 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from django.conf import settings
 
 from MyResume import views
 
+
+
 urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+
+urlpatterns += i18n_patterns(
     path('', views.index, name='index'),
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),
     path('gallery/', views.gallery, name='gallery'),
-    path('services/',views.services, name='services'),
-    path('gallery-single', views.gallery_single, name='gallery-single'),
-    path('admin/', admin.site.urls),
-]
+    path('services/', views.services, name='services'),
+    path('gallery-single/', views.gallery_single, name='gallery-single'),
+)
+
+
+

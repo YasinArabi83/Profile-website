@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-18 00:55+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: resumes/settings.py:97
+msgid "English"
+msgstr "انگلیسی"
+
+#: resumes/settings.py:98
+msgid "Persian"
+msgstr "فارسی"
+
+#: template/base.html:55 template/index.html:5
+msgid "Home"
+msgstr "خانه"
+
+#: template/base.html:56
+msgid "About"
+msgstr "درباره ما"
+
+#: template/base.html:57
+msgid "Gallery"
+msgstr "گالری"
+
+#: template/base.html:59
+msgid "Gallery Single"
+msgstr "گالری تک"
+
+#: template/base.html:62
+msgid "Services"
+msgstr "خدمات"
+
+#: template/base.html:63
+msgid "Contact"
+msgstr "ارتباط"
+
+#: template/index.html:18
+msgid "Available for Hire"
+msgstr "برای اجاره موجود است"
