@@ -20,3 +20,6 @@ def gallery(request):
 
 def gallery_single(request):
     return render(request, 'gallery-single.html')
+
+def services(request):
+    return render(request, 'services.html')
