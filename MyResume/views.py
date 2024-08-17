@@ -16,3 +16,7 @@ def contact(request):
 
 def gallery(request):
     return render(request, 'gallery.html')
+
+
+def gallery_single(request):
+    return render(request, 'gallery-single.html')
